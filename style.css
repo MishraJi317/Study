@@ -1,0 +1,37 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#div1
+{
+    width: 1000px;
+    height: 700px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(189, 189, 189);
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    overflow: hidden;
+}
+
+.innerdiv
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.random
+{
+    background-color: rgb(43, 75, 180);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 1050px;
+}
